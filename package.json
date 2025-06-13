@@ -1,0 +1,73 @@
+{
+  "name": "react-calculator-lab",
+  "version": "1.0.0",
+  "description": "A modern React calculator with 2025 design trends",
+  "private": true,
+  "homepage": "https://yourusername.github.io/react-calculator-lab",
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://github.com/yourusername"
+  },
+  "keywords": [
+    "react",
+    "calculator",
+    "modern-design",
+    "glassmorphism",
+    "2025-trends",
+    "responsive",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-calculator-lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-calculator-lab/issues"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^3.5.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.1",
+    "gh-pages": "^6.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "format": "prettier --write src/**/*.{js,jsx,css,md}"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not ie <= 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
