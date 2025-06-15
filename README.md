@@ -1,4 +1,4 @@
-# React Calculator Lab 🧮
+# React Calculator 🧮
 
 A modern, fully-functional React calculator application built with contemporary 2025 design principles. This project demonstrates clean code architecture, responsive design, and comprehensive error handling.
 
